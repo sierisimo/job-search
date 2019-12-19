@@ -3,7 +3,7 @@ package com.platzi.jobsearch.cli;
 import com.beust.jcommander.Parameter;
 
 public class CLIArguments {
-    CLIArguments(){
+    CLIArguments() {
 
     }
 
@@ -28,7 +28,7 @@ public class CLIArguments {
     private int page = 0;
 
     @Parameter(
-            names = {"--full-time"},
+            names = "--full-time",
             description = "Agrega si queremos trabajos de tiempo completo"
     )
     private boolean isFullTime = false;
