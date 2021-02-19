@@ -25,4 +25,14 @@ dependencies {
 
     // https://mvnrepository.com/artifact/io.github.openfeign/feign-gson
     compile group: 'io.github.openfeign', name: 'feign-gson', version: '10.7.0'
+
+    // https://mvnrepository.com/artifact/com.beust/jcommander
+    implementation group: 'com.beust', name: 'jcommander', version: '1.78'
+
+    // https://mvnrepository.com/artifact/io.github.openfeign/feign-core
+    implementation group: 'io.github.openfeign', name: 'feign-core', version: '10.9'
+
+    // https://mvnrepository.com/artifact/io.github.openfeign/feign-gson
+    implementation group: 'io.github.openfeign', name: 'feign-gson', version: '10.9'
+
 }
